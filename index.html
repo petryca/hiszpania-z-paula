@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiszpania z Paulą — Praktyczne porady o życiu w Hiszpanii</title>
+  <meta name="description" content="Praktyczne porady dotyczące podróży, życia i przeprowadzki do Hiszpanii. E-book, artykuły i osobisty przewodnik.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://vibestats.up.railway.app/track.js"></script>
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__brand">Hiszpania z Paulą</a>
+      <button class="header__menu-toggle" aria-label="Otwórz menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      <nav class="header__nav" id="main-nav">
+        <a href="#o-pavle" class="header__link">O Pauli</a>
+        <a href="#stehovani" class="header__link">Przeprowadzka</a>
+        <a href="#recenze" class="header__link">Opinie</a>
+        <a href="#blog" class="header__link">Artykuły</a>
+        <a href="faq.html" class="header__link">FAQ</a>
+        <a href="#stehovani" class="header__cta-btn btn btn--primary btn--sm">Zdobądź e-book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="section-hero" id="hero">
+      <picture class="hero__bg">
+        <source media="(max-width: 768px)" srcset="images/hero-square.jpg">
+        <img src="images/hero-wide.jpg" alt="Widok na hiszpańskie nadmorskie miasteczko" loading="eager">
+      </picture>
+      <div class="hero__overlay">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              <span class="hero__title-main">Hiszpania</span>
+              <span class="hero__title-script">z Paulą</span>
+              <svg class="hero__wave" viewBox="0 0 200 14" aria-hidden="true" focusable="false">
+                <path d="M2 8 Q 25 1, 50 8 T 100 8 T 150 8 T 198 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </h1>
+            <p class="hero__tagline">Praktyczny przewodnik po życiu, pracy i&nbsp;przeprowadzce do&nbsp;Hiszpanii — od pierwszej myśli aż po gotową realizację.</p>
+            <p class="hero__tagline-sub">E-book • artykuły • doświadczenie z praktyki</p>
+            <a href="#stehovani" class="btn btn--primary btn--lg">Chcę dowiedzieć się więcej</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O Pauli -->
+    <section class="section section-about" id="o-pavle">
+      <div class="container">
+        <div class="about__grid fade-in">
+          <div class="about__image-wrap">
+            <img src="images/pavla.jpg" alt="Paula — przewodniczka po życiu w Hiszpanii" class="about__image">
+          </div>
+          <div class="about__text">
+            <h2 class="section__title">Cześć, jestem Paula</h2>
+            <p>Hiszpanii poświęcam się od ponad 35 lat – zawodowo i osobiście. Przez dziesięć lat mieszkałam i pracowałam w Hiszpanii, zwiedziłam ją wzdłuż i wszerz i do dziś regularnie tam wracam jako przewodniczka, tłumaczka pisemna i ustna. Przez ten czas przeszłam przez wszystko — od załatwiania dokumentów, przez szukanie mieszkania, aż po budowanie nowego życia w obcym kraju. Dziś pomagam innym Polakom, żeby mieli łatwiej.</p>
+            <p>Pomogłam już dziesiątkom osób w przeprowadzce do Hiszpanii, czy to praktycznymi radami, czy osobistym towarzyszeniem bezpośrednio na miejscu.</p>
+            <div class="about__stats">
+              <div class="about__stat">
+                <span class="about__stat-number">35+</span>
+                <span class="about__stat-label">lat w Hiszpanii</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-number">1000+</span>
+                <span class="about__stat-label">zadowolonych klientów</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-number">2</span>
+                <span class="about__stat-label">e-booki i przewodniki</span>
+              </div>
+            </div>
+            <p class="about__more"><a href="o-pauli.html">Przeczytaj całą moją historię →</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Przeprowadzka do Hiszpanii -->
+    <section class="section section-stehovani section--grey" id="stehovani">
+      <div class="container">
+        <div class="section__header fade-in">
+          <img src="images/spain-1.jpg" alt="Zdjęcie z Hiszpanii" class="section__image" width="400" height="400" loading="lazy" decoding="async">
+          <h2 class="section__title">Przeprowadzka do Hiszpanii</h2>
+          <p class="section__subtitle">Planujesz nowy początek w Hiszpanii? Doradzę Ci we wszystkim, co trzeba załatwić — krok po kroku, bez zbędnego stresu.</p>
+        </div>
+
+        <div class="card-grid card-grid--five fade-in">
+          <a href="ebook/dokumenty.html" class="card">
+            <div class="card__icon"><i data-lucide="file-text"></i></div>
+            <h3 class="card__title">Dokumenty</h3>
+            <p class="card__text">NIE, rezydencja, meldunek — kompletny przegląd potrzebnych dokumentów i jak je załatwić.</p>
+          </a>
+          <a href="ebook/mieszkanie.html" class="card">
+            <div class="card__icon"><i data-lucide="home"></i></div>
+            <h3 class="card__title">Mieszkanie</h3>
+            <p class="card__text">Jak szukać mieszkania, na co uważać w umowie i jakie są realne koszty.</p>
+          </a>
+          <a href="ebook/banki.html" class="card">
+            <div class="card__icon"><i data-lucide="landmark"></i></div>
+            <h3 class="card__title">Banki</h3>
+            <p class="card__text">Otwarcie konta, przelewy pieniędzy i wskazówki dotyczące usług bankowych dla obcokrajowców.</p>
+          </a>
+          <a href="ebook/praca.html" class="card">
+            <div class="card__icon"><i data-lucide="briefcase"></i></div>
+            <h3 class="card__title">Praca</h3>
+            <p class="card__text">Gdzie szukać pracy, jakie są warunki zatrudnienia i co jest potrzebne do pozwolenia na pracę.</p>
+          </a>
+          <a href="ebook/dzialalnosc.html" class="card">
+            <div class="card__icon"><i data-lucide="store"></i></div>
+            <h3 class="card__title">Działalność</h3>
+            <p class="card__text">Autónomo, założenie firmy i system podatkowy — wszystko, co musisz wiedzieć o prowadzeniu działalności w Hiszpanii.</p>
+          </a>
+          <a href="ebook/edukacja.html" class="card">
+            <div class="card__icon"><i data-lucide="graduation-cap"></i></div>
+            <h3 class="card__title">Edukacja</h3>
+            <p class="card__text">Przegląd hiszpańskiego szkolnictwa, zapisy dzieci do szkoły i różnice w porównaniu z polskim systemem.</p>
+          </a>
+          <a href="ebook/opieka-zdrowotna.html" class="card">
+            <div class="card__icon"><i data-lucide="heart-pulse"></i></div>
+            <h3 class="card__title">Opieka zdrowotna</h3>
+            <p class="card__text">Jak działa hiszpański system opieki zdrowotnej i czego potrzebujesz, aby dostać się do lekarza.</p>
+          </a>
+          <a href="ebook/emerytura.html" class="card">
+            <div class="card__icon"><i data-lucide="piggy-bank"></i></div>
+            <h3 class="card__title">Emerytura</h3>
+            <p class="card__text">System emerytalny, przeniesienie polskiej emerytury i warunki dla emerytów w Hiszpanii.</p>
+          </a>
+          <a href="ebook/samochod.html" class="card">
+            <div class="card__icon"><i data-lucide="car"></i></div>
+            <h3 class="card__title">Samochód</h3>
+            <p class="card__text">Przerejestrowanie pojazdu, prawo jazdy, ubezpieczenie i hiszpańskie przepisy drogowe.</p>
+          </a>
+          <!-- <a href="ebook/lgbt.html" class="card">
+            <div class="card__icon"><i data-lucide="rainbow"></i></div>
+            <h3 class="card__title">LGBT</h3>
+            <p class="card__text">Prawa, związki partnerskie i życie społeczności LGBT w Hiszpanii.</p>
+          </a> -->
+        </div>
+
+        <!-- Product block -->
+        <div class="product-block fade-in">
+          <p class="product-block__intro">Wszystkie te tematy znajdziesz szczegółowo opracowane w moim e-booku:</p>
+          <div class="product-feature">
+            <div class="product-feature__image-wrap">
+              <img src="images/ebook.jpg" alt="E-book Hiszpania z Paulą" class="product-feature__image">
+            </div>
+            <div class="product-feature__content">
+              <h3 class="product-feature__title">E-book: Hiszpania z Paulą</h3>
+              <p class="product-feature__desc">Kompletny przewodnik po przeprowadzce — dokumenty, mieszkanie, banki, praca, działalność, edukacja, opieka zdrowotna, emerytura i samochód. Wszystko, co musisz wiedzieć, w jednym miejscu.</p>
+              <ul class="product-feature__list">
+                <li>Ponad 200 stron sprawdzonych informacji</li>
+                <li>Praktyczne checklisty i szablony</li>
+                <li>Linki do urzędów i formularzy</li>
+                <li>Regularne aktualizacje za darmo</li>
+              </ul>
+              <p class="product-feature__price">60 zł</p>
+              <a href="#" class="btn btn--primary btn--lg">Kup e-book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opinie / Social proof -->
+    <section class="section section-recenze" id="recenze">
+      <div class="container">
+        <div class="section__header fade-in">
+          <img src="images/spain-3.jpg" alt="Zdjęcie z Hiszpanii" class="section__image" width="400" height="400" loading="lazy" decoding="async">
+          <h2 class="section__title">Co mówią klienci</h2>
+          <p class="section__subtitle">Opinie osób, którym pomogłam w przeprowadzce do Hiszpanii lub w podróżach.</p>
+        </div>
+
+        <div class="testimonial-grid fade-in">
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+            <p class="testimonial-card__text">&ldquo;Dzięki Pauli zaoszczędziłam miesiące szukania w Google. E-book jest świetnie zorganizowany i dał mi pewność, że o niczym nie zapomnę.&rdquo;</p>
+            <p class="testimonial-card__author">Marta K., przeprowadziła się do Malagi</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+            <p class="testimonial-card__text">&ldquo;Paula przeprowadziła nas przez cały proces przeprowadzki z dziećmi. Bez niej nie poszłoby tak gładko. Gorąco polecam!&rdquo;</p>
+            <p class="testimonial-card__author">Tomasz i Anna P., mieszkają w Barcelonie</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+            <p class="testimonial-card__text">&ldquo;Paula pomogła mi załatwić NIE, znaleźć mieszkanie i zorientować się w urzędach. Bez jej pomocy bym się w tym pogubiła — wszystko nagle stało się zrozumiałe i wykonalne.&rdquo;</p>
+            <p class="testimonial-card__author">Patrycja S., przeprowadziła się do Walencji</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog preview -->
+    <section class="section section-blog section--grey" id="blog">
+      <div class="container">
+        <div class="section__header fade-in">
+          <img src="images/spain-4.jpg" alt="Zdjęcie z Hiszpanii" class="section__image" width="400" height="400" loading="lazy" decoding="async">
+          <h2 class="section__title">Najnowsze artykuły</h2>
+          <p class="section__subtitle">Wskazówki, doświadczenia i nowości z życia w Hiszpanii.</p>
+        </div>
+
+        <div class="blog-grid fade-in">
+          <a class="blog-card" href="blog/mieszkanie/zycie-w-jaskini.html">
+            <span class="blog-card__cat">Mieszkanie</span>
+            <h3 class="blog-card__title">Chcielibyście mieszkać w jaskini?</h3>
+            <p class="blog-card__excerpt">Na zewnątrz ponad 40 °C, a w domu żadnej klimatyzacji. W andaluzyjskim Zújar ludzie do dziś mieszkają w domach jaskiniowych casas cueva — tanich i cichych.</p>
+            <span class="blog-card__link">Czytaj artykuł →</span>
+          </a>
+          <a class="blog-card" href="blog/barcelona/barcelonska-legenda-miejska-gaudiego.html">
+            <span class="blog-card__cat">Barcelona</span>
+            <h3 class="blog-card__title">Barcelońska miejska legenda, którą wymyślił Gaudí</h3>
+            <p class="blog-card__excerpt">Dlaczego wieża Sagrada Família jest niższa niż wzgórze Montjuïc? Przekonanie Gaudíego, że dzieło człowieka nie może przewyższyć dzieła Boga.</p>
+            <span class="blog-card__link">Czytaj artykuł →</span>
+          </a>
+          <a class="blog-card" href="blog/barcelona/wizyta-papieza-w-barcelonie.html">
+            <span class="blog-card__cat">Barcelona</span>
+            <h3 class="blog-card__title">Wizyta papieża w Barcelonie</h3>
+            <p class="blog-card__excerpt">Papież Leon XIV przyjeżdża w czerwcu 2026 do Barcelony. Co szykuje się w Sagrada Família sto lat po śmierci Antoniego Gaudíego.</p>
+            <span class="blog-card__link">Czytaj artykuł →</span>
+          </a>
+        </div>
+
+        <div class="blog-more fade-in">
+          <a href="blog/index.html" class="btn btn--outline">Wszystkie artykuły &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ teaser -->
+    <section class="section faq-teaser" id="faq">
+      <div class="container">
+        <div class="section__header fade-in">
+          <img src="images/spain-6.jpg" alt="Zdjęcie z Hiszpanii" class="section__image" width="400" height="400" loading="lazy" decoding="async">
+          <h2 class="section__title">Częste pytania</h2>
+          <p class="section__subtitle">Praca, koszty, mieszkanie, NIE, opieka zdrowotna i emerytura — odpowiedzi na to, o co pytacie najczęściej.</p>
+        </div>
+
+        <ul class="faq-teaser__links fade-in">
+          <li><a href="faq.html#naklady">Jakie są koszty życia w Hiszpanii?</a></li>
+          <li><a href="faq.html#prace">Czy w Hiszpanii można znaleźć pracę?</a></li>
+          <li><a href="faq.html#nie">Co to jest NIE i dlaczego go potrzebuję?</a></li>
+          <li><a href="faq.html#pronajem">Jak trudno znaleźć wynajem w Barcelonie lub Madrycie?</a></li>
+        </ul>
+
+        <div class="blog-more fade-in">
+          <a href="faq.html" class="btn btn--outline">Wszystkie częste pytania &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt / Footer CTA -->
+    <section class="section section-kontakt" id="kontakt">
+      <div class="container">
+        <div class="section__header fade-in">
+          <img src="images/spain-5.jpg" alt="Zdjęcie z Hiszpanii" class="section__image" width="400" height="400" loading="lazy" decoding="async">
+          <h2 class="section__title">Napisz do mnie</h2>
+          <p class="section__subtitle">Napisz do mnie przez formularz albo od razu na WhatsAppie — zwykle odpowiadam w ciągu 24 godzin.</p>
+        </div>
+
+        <div class="kontakt-grid fade-in">
+          <div class="kontakt-message">
+            <h3 class="kontakt__subtitle">Napisz do mnie wiadomość</h3>
+            <p class="kontakt__lead">Przydaje się, gdy chcesz opisać coś bardziej szczegółowo lub przedstawić konkretną sytuację.</p>
+            <form class="contact-form" action="https://formspree.io/f/mpqnkqro" method="POST">
+              <div class="contact-form__row">
+                <label class="contact-form__field">
+                  <span class="contact-form__label">Imię</span>
+                  <input type="text" name="name" class="contact-form__input" required>
+                </label>
+                <label class="contact-form__field">
+                  <span class="contact-form__label">E-mail</span>
+                  <input type="email" name="email" class="contact-form__input" required>
+                </label>
+              </div>
+              <label class="contact-form__field">
+                <span class="contact-form__label">Telefon <span class="contact-form__optional">(opcjonalnie)</span></span>
+                <input type="tel" name="phone" class="contact-form__input">
+              </label>
+              <label class="contact-form__field">
+                <span class="contact-form__label">Twoja wiadomość</span>
+                <textarea name="message" rows="5" class="contact-form__input contact-form__textarea" required></textarea>
+              </label>
+              <input type="text" name="_gotcha" class="contact-form__honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <button type="submit" class="btn btn--primary btn--lg">Wyślij wiadomość</button>
+            </form>
+          </div>
+
+          <aside class="kontakt-whatsapp">
+            <div class="kontakt-whatsapp__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
+            </div>
+            <h3 class="kontakt__subtitle">Albo szybko na WhatsAppie</h3>
+            <p>Najprostsza droga w przypadku krótkich pytań. Wystarczy jedno kliknięcie i piszesz do mnie bezpośrednio — żadnych formularzy, żadnego czekania.</p>
+            <a href="https://wa.me/420776544156?text=Dzie%C5%84%20dobry%20Paulo%2C%20mam%20pytanie%20dotycz%C4%85ce%20przeprowadzki%20do%20Hiszpanii." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
+              Napisz na WhatsApp
+            </a>
+            <p class="kontakt-whatsapp__note">
+              <i data-lucide="clock"></i>
+              Zwykle odpowiadam w ciągu 24 godzin
+            </p>
+          </aside>
+        </div>
+
+        <div class="kontakt-social fade-in">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="TikTok">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__line">
+        <a href="#">Ochrona danych osobowych (RODO)</a>
+        <span class="footer__sep" aria-hidden="true">|</span>
+        <a href="#">Regulamin</a>
+        <span class="footer__sep" aria-hidden="true">|</span>
+        <span>&copy; 2026 Hiszpania z Paulą. Wszelkie prawa zastrzeżone.</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
