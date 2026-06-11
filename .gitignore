@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor
+.vscode/
+.zed/
+*.swp
+*.swo
+
+# Claude Code (local config, not project config)
+.claude/settings.json
+.claude/settings.local.json
+
+# Environment variables
+.env
+.env.local
+
+# Node (if you ever use live-server or similar)
+node_modules/
+
+# Private post-purchase download page (secret URL, kept out of the repo)
+/03a7fbc7.html
